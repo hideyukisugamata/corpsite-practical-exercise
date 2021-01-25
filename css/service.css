@@ -1,0 +1,90 @@
+#header {
+  height: 4.5rem;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0rem;
+  z-index: 10000;
+}
+#header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+#header nav {
+  width: 43%;
+  margin-right: 2rem;
+}
+#header ul {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+#title {
+  height: 15.5rem;
+  width: 100%;
+  background: url(../img/mv.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 4.5rem;
+}
+#title h1{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  line-height: 15.5rem;
+}
+
+#main{
+  height: 65rem;
+  width: 100%;
+  position: relative;
+}
+.contents{
+  height: 85%;
+  width: 70%;
+  background-color: aqua;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-wrap: wrap;
+}
+.first,.second,.third,.fourth{
+  height: 25%;
+  width: 100%;
+  border-top: 0.1px solid #000;
+  box-sizing: border-box;
+  padding: 1rem 0;
+  display: flex;
+}
+.first-image,.second-image,.third-image,.fourth-image{
+  height: 100%;
+  width: 25%;
+}
+.first-image{
+  background: url(../img/service1.png);
+  background-position: center;
+  background-size: cover;
+}
+.second-image{
+  background: url(../img/service2.png);
+  background-position: center;
+  background-size: cover;
+}
+.third-image{
+  background: url(../img/service3.png);
+  background-position: center;
+  background-size: cover;
+}
+.fourth-image{
+  background: url(../img/service4.png);
+  background-position: center;
+  background-size: cover;
+}
