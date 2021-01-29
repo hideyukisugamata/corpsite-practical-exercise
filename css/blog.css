@@ -16,7 +16,7 @@
   color: #000;
 }
 #header h1:hover,
-#header li:hover{
+#header li:hover {
   transition: 0.5s;
   opacity: 0.7;
 }
@@ -29,10 +29,10 @@
   justify-content: space-between;
   font-weight: bold;
 }
-#header li{
+#header li {
   color: #000;
 }
-#header a{
+#header a {
   text-decoration: none;
 }
 
@@ -53,80 +53,68 @@
 }
 
 #main {
-  height: 65rem;
+  height: 50rem;
   width: 100%;
   position: relative;
 }
 .contents {
-  height: 85%;
-  width: 70%;
+  width: 70.5%;
+  height: 74%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
-.first,
-.second,
-.third,
-.fourth {
-  height: 25%;
+.contents1,
+.contents2,
+.contents3,
+.contents4,
+.contents5,
+.contents6 {
+  width: 32%;
+  height: 50%;
+}
+.contents1-image,
+.contents2-image,
+.contents3-image,
+.contents4-image,
+.contents5-image,
+.contents6-image {
+  height: 70%;
   width: 100%;
-  border-top: 0.1px solid gray;
-  box-sizing: border-box;
-  padding: 1.5rem 0rem;
-  display: flex;
-}
-.fourth {
-  border-bottom: 0.1px solid gray;
-}
-.first-image,
-.second-image,
-.third-image,
-.fourth-image {
-  height: 100%;
-  width: 27%;
-}
-.first-image {
-  background: url(../img/service1.png) no-repeat;
-  background-position: center;
+  background: url(../img/blog.png) no-repeat;
   background-size: cover;
-}
-.second-image {
-  background: url(../img/service2.png);
   background-position: center;
-  background-size: cover;
 }
-.third-image {
-  background: url(../img/service3.png);
-  background-position: center;
-  background-size: cover;
-}
-.fourth-image {
-  background: url(../img/service4.png);
-  background-position: center;
-  background-size: cover;
-}
-.first-text,
-.second-text,
-.third-text,
-.fourth-text {
-  height: 100%;
-  width: 70%;
-  margin-left: 2.3rem;
-}
-#main h1 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-#main h3 {
+.contents h3 {
+  font-size: 0.9rem;
   font-weight: normal;
-  line-height: 1.5rem;
+  margin: 0.8rem 0rem;
 }
-
+.contents h2 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #000;
+}
+.contents1-image:hover,
+.contents2-image:hover,
+.contents3-image:hover,
+.contents4-image:hover,
+.contents5-image:hover,
+.contents6-image:hover {
+  transition: 0.5s;
+  opacity: 0.8;
+}
+#main a {
+  text-decoration: none;
+}
+.contents h2:hover {
+  transition: 0.5s;
+  opacity: 0.7;
+}
 #FAQ {
   height: 21rem;
   width: 100%;
@@ -162,7 +150,7 @@
   margin-top: 1.5rem;
   cursor: pointer;
 }
-#FAQ button:hover{
+#FAQ button:hover {
   transition: 0.5s;
   opacity: 0.7;
 }
@@ -199,14 +187,14 @@
 #footer li:first-child {
   border-left: none;
 }
-#footer a{
+#footer a {
   text-decoration: none;
   border-left: 0.1px solid #fff;
 }
-#footer a:first-child{
+#footer a:first-child {
   border-left: none;
 }
-#footer li:hover{
+#footer li:hover {
   transition: 0.5s;
   opacity: 0.7;
 }

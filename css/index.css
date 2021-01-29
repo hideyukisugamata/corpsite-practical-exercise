@@ -4,7 +4,6 @@
   background-color: #fff;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   position: fixed;
   top: 0rem;
   z-index: 10000;
@@ -12,8 +11,13 @@
 #header h1 {
   font-size: 1.5rem;
   font-weight: bold;
-  padding-left: 2rem;
+  margin-left: 2rem;
   cursor: pointer;
+}
+#header nav {
+  width: 43%;
+  margin-right: 2rem;
+  margin-left: auto;
 }
 #header ul {
   display: flex;
@@ -21,7 +25,6 @@
   list-style: none;
 }
 #header li {
-  margin-right: 1.5rem;
   font-weight: bold;
   cursor: pointer;
 }
@@ -29,10 +32,13 @@
   transition: 0.5s;
   opacity: 0.7;
 }
+#header a {
+  text-decoration: none;
+  color: black;
+}
 
 #mission {
   height: 35rem;
-  width: 100%;
   background: url(../img/mv.png) no-repeat;
   background-size: cover;
   background-position: center;
@@ -208,9 +214,10 @@
 .news-second,
 .news-third {
   cursor: pointer;
+  color: #000;
 }
 .news-title {
-  background-color: black;
+  background-color: #000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -244,6 +251,9 @@
 .news-text span {
   font-weight: bold;
   margin-left: 1rem;
+}
+#news a {
+  text-decoration: none;
 }
 
 #blog {
@@ -313,6 +323,7 @@
   font-size: 1.1rem;
   margin-top: 0.7rem;
   cursor: pointer;
+  color: #000;
 }
 .blog-main h2:hover {
   transition: 0.5s;
@@ -335,6 +346,10 @@
   transition: 0.5s;
   opacity: 0.7;
 }
+#blog a {
+  text-decoration: none;
+}
+
 #company {
   height: 20rem;
   width: 100%;
@@ -345,14 +360,12 @@
   height: 75%;
   width: 50%;
   background-color: #cd0224;
-  color: #fff;
   cursor: pointer;
 }
 .company-right {
   height: 75%;
   width: 50%;
   background-color: black;
-  color: #fff;
   cursor: pointer;
 }
 .company-left:hover,
@@ -365,6 +378,10 @@
   font-weight: bold;
   text-align: center;
   line-height: 15rem;
+  color: #fff;
+}
+#company a {
+  text-decoration: none;
 }
 
 #FAQ {
@@ -439,6 +456,7 @@
   padding: 0rem 0.6rem 0rem 0.6rem;
   border-left: 0.05rem solid #fff;
   cursor: pointer;
+  color: #fff;
 }
 #footer li:first-child {
   border-left: none;
@@ -446,4 +464,55 @@
 #footer li:hover {
   transition: 0.5s;
   opacity: 0.7;
+}
+#footer a {
+  text-decoration: none;
+  border-left: 0.1px solid #fff;
+}
+#footer a:first-child {
+  border-left: none;
+}
+
+@media screen and (max-width: 768px) {
+#header nav{
+  display: none;
+}
+#header{
+  height: 6rem;
+}
+#header h1{
+  font-size: 2.2rem;
+  margin-left: 1rem;
+}
+.hamburger{
+  height: 4rem;
+  width: 4rem;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(0%,-50%);
+}
+.hamburger span{
+  position: absolute;
+  left: 3px;
+  display: block;
+  width: 3rem;
+  height: 0.3rem;
+  background-color: #000;
+}
+.hamburger span:nth-of-type(1){
+  top:1rem;
+}
+.hamburger span:nth-of-type(2){
+  top:2rem;
+}
+.hamburger span:nth-of-type(3){
+  top: 3rem;
+}
+
+#mission{
+  height:50rem;
+  width:auto;
+}
+
 }
