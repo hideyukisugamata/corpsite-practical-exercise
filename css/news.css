@@ -180,3 +180,59 @@
   transition: 0.5s;
   opacity: 0.7;
 }
+
+@media screen and (max-width : 768px){
+#header nav{
+  display: none;
+}
+.hamburger{
+  height: 4rem;
+  width: 4rem;
+  position: absolute;
+  left:80%;
+}
+.hamburger span{
+  background-color: #000;
+  position: absolute;
+  left: 9px;
+  width: 2.3rem;
+  height: 0.25rem;
+}
+.hamburger span:nth-of-type(1){
+  top: 1rem;
+}
+.hamburger span:nth-of-type(2){
+  top: 1.9rem;
+}
+.hamburger span:nth-of-type(3){
+  top: 2.8rem;
+}
+#main{
+  height: 20rem;
+}
+.main-text{
+  width: 90%;
+  height: 45%;
+}
+#main h2{
+  line-height: 2.7rem;
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+
+#FAQ button{
+  width: 80%;
+  font-size: 1rem;
+}
+#FAQ h3{
+  font-size: 1.05rem;
+  line-height: 1.5rem;
+}
+#FAQ h1{
+  font-size: 1.85rem;
+}
+
+#footer h6{
+  margin: 0;
+}
+}
