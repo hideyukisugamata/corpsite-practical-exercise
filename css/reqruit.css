@@ -23,6 +23,7 @@
 #header nav {
   width: 43%;
   margin-right: 2rem;
+  margin-left: auto;
 }
 #header ul {
   display: flex;
@@ -187,4 +188,83 @@
 #footer li:hover {
   transition: 0.5s;
   opacity: 0.7;
+}
+
+@media screen and (max-width : 768px){
+#header nav{
+  display: none;
+}
+.hamburger{
+  height: 4rem;
+  width: 4rem;
+  position: absolute;
+  left: 80%;
+}
+.hamburger span{
+  background-color: #000;
+  position: absolute;
+  height: 0.25rem;
+  width: 2.3rem;
+  left: 8px;
+  display: block;
+}
+.hamburger span:nth-of-type(1){
+  top: 1rem;
+}
+.hamburger span:nth-of-type(2){
+  top: 1.9rem;
+}
+.hamburger span:nth-of-type(3){
+  top: 2.8rem;
+}
+
+#main{
+  height: 55rem;
+}
+.contents1,.contents2{
+  width: 90%;
+}
+.contents-text{
+  line-height: 1.7rem;
+}
+.contents-title{
+  margin-top: 5rem;
+}
+
+#FAQ button{
+  width: 80%;
+  font-size: 1.05rem;
+}
+#FAQ h3{
+  font-size: 1.05rem;
+  line-height: 1.65rem;
+}
+#footer{
+  height: 16rem;
+  display: block;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#footer h6{
+  margin: 0;
+  padding: 1.1rem 0;
+  text-align: center;
+}
+.footer-menu{
+  width: 80%;
+  margin-right: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-menu ul{
+  display: block;
+  justify-content: flex-start;
+}
+#footer li{
+  border-left: none;
+  padding-bottom: 1.1rem;
+}
+#footer a{
+  border: none;
+}
 }

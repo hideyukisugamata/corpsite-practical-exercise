@@ -23,6 +23,7 @@
 #header nav {
   width: 43%;
   margin-right: 2rem;
+  margin-left: auto;
 }
 #header ul {
   display: flex;
@@ -232,7 +233,31 @@
   font-size: 1.85rem;
 }
 
+#footer{
+  height: 16rem;
+  display: block;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
 #footer h6{
   margin: 0;
+  padding: 1.1rem 0;
+  text-align: center;
+}
+.footer-menu{
+  width: 100%;
+  text-align: center;
+  margin-right: 0;
+}
+#footer ul{
+  display: block;
+  justify-content: flex-start;
+}
+#footer li{
+  border: none;
+  margin-bottom: 1.1rem;
+}
+#footer a{
+  border: none;
 }
 }

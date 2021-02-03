@@ -661,26 +661,28 @@
   }
 
   #footer{
-    height: 15rem;
+    height: 16rem;
     display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
   #footer h6{
-    margin: 0 auto;
-    background-color: turquoise;
+    margin: 0;
     text-align: center;
-
+    padding:1.1rem 0
   }
   #footer ul{
     display: block;
     text-align: center;
-    width: auto;
-    background-color:tomato;
-    height: 10rem;
     width: 100%;
-    margin-left: 6.5rem;
+    justify-content: flex-start;
+    margin: 0 auto;
+  }
+  #footer nav{
+    margin: 0;
   }
   #footer li{
-
+    padding-bottom: 1.1rem;
   }
   #footer a{
     border-left: none;

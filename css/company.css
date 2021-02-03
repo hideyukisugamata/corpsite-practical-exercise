@@ -23,6 +23,7 @@
 #header nav {
   width: 43%;
   margin-right: 2rem;
+  margin-left: auto;
 }
 #header ul {
   display: flex;
@@ -83,7 +84,6 @@
 #main tr:first-child{
   border-top: 0.1px solid #000;
 }
-
 
 #FAQ {
   height: 21rem;
@@ -167,4 +167,73 @@
 #footer li:hover {
   transition: 0.5s;
   opacity: 0.7;
+}
+
+@media screen and (max-width : 768px){
+#header nav{
+  display: none;
+}
+.hamburger{
+  height: 4rem;
+  width: 4rem;
+  position: absolute;
+  left: 80%;
+}
+.hamburger span{
+  position: absolute;
+  left: 8px;
+  display: block;
+  width: 2.3rem;
+  height: 0.25rem;
+  background-color: #000;
+}
+.hamburger span:nth-of-type(1){
+  top: 1rem;
+}
+.hamburger span:nth-of-type(2){
+  top:1.9rem;
+}
+.hamburger span:nth-of-type(3){
+  top: 2.8rem;
+}
+
+.table-div{
+  width: 90%;
+}
+
+#FAQ button{
+  width: 80%;
+  font-size: 1rem;
+}
+#FAQ h3{
+  font-size: 1.05rem;
+  line-height: 1.7rem;
+}
+
+#footer{
+  height: 16rem;
+  display: block;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.footer-menu{
+  margin-right: 0;
+  width: 100%;
+  text-align: center;
+}
+.footer-menu ul{
+  display: block;
+  justify-content: flex-start;
+}
+#footer li{
+  padding-bottom: 1.1rem;
+}
+#footer a{
+  border: none;
+}
+#footer h6{
+  margin: 0;
+  text-align: center;
+  padding: 1.1rem 0;
+}
 }
