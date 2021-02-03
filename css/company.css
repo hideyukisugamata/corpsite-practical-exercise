@@ -177,11 +177,11 @@
   height: 4rem;
   width: 4rem;
   position: absolute;
-  left: 80%;
+  right: 0%;
 }
 .hamburger span{
   position: absolute;
-  left: 8px;
+  left: 12px;
   display: block;
   width: 2.3rem;
   height: 0.25rem;
@@ -201,6 +201,9 @@
   width: 90%;
 }
 
+#FAQ{
+  height: 25rem;
+}
 #FAQ button{
   width: 80%;
   font-size: 1rem;
@@ -211,7 +214,7 @@
 }
 
 #footer{
-  height: 16rem;
+  height: 17rem;
   display: block;
   justify-content: flex-start;
   align-items: flex-start;
@@ -226,7 +229,7 @@
   justify-content: flex-start;
 }
 #footer li{
-  padding-bottom: 1.1rem;
+  padding-bottom: 1.2rem;
 }
 #footer a{
   border: none;
@@ -234,6 +237,6 @@
 #footer h6{
   margin: 0;
   text-align: center;
-  padding: 1.1rem 0;
+  padding: 1.2rem 0;
 }
 }

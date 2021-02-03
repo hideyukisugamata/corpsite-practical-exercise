@@ -198,14 +198,14 @@
   height: 4rem;
   width: 4rem;
   position: absolute;
-  left: 80%;
+  right: 0%;
 }
 .hamburger span{
   background-color: #000;
   position: absolute;
   height: 0.25rem;
   width: 2.3rem;
-  left: 8px;
+  left: 12px;
   display: block;
 }
 .hamburger span:nth-of-type(1){
@@ -230,7 +230,9 @@
 .contents-title{
   margin-top: 5rem;
 }
-
+#FAQ{
+  height: 23rem;
+}
 #FAQ button{
   width: 80%;
   font-size: 1.05rem;
@@ -240,14 +242,14 @@
   line-height: 1.65rem;
 }
 #footer{
-  height: 16rem;
+  height: 17rem;
   display: block;
   justify-content: flex-start;
   align-items: flex-start;
 }
 #footer h6{
   margin: 0;
-  padding: 1.1rem 0;
+  padding: 1.2rem 0;
   text-align: center;
 }
 .footer-menu{
@@ -262,7 +264,7 @@
 }
 #footer li{
   border-left: none;
-  padding-bottom: 1.1rem;
+  padding-bottom: 1.2rem;
 }
 #footer a{
   border: none;

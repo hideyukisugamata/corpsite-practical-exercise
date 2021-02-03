@@ -190,12 +190,12 @@
   height: 4rem;
   width: 4rem;
   position: absolute;
-  left:80%;
+  right: 0%;
 }
 .hamburger span{
   background-color: #000;
   position: absolute;
-  left: 9px;
+  left: 12px;
   width: 2.3rem;
   height: 0.25rem;
 }
@@ -234,14 +234,14 @@
 }
 
 #footer{
-  height: 16rem;
+  height: 16.5rem;
   display: block;
   justify-content: flex-start;
   align-items: flex-start;
 }
 #footer h6{
   margin: 0;
-  padding: 1.1rem 0;
+  padding: 1.15rem 0;
   text-align: center;
 }
 .footer-menu{
@@ -255,7 +255,7 @@
 }
 #footer li{
   border: none;
-  margin-bottom: 1.1rem;
+  margin-bottom: 1.15rem;
 }
 #footer a{
   border: none;

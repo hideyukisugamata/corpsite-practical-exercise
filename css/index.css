@@ -440,7 +440,7 @@
   font-size: 0.8rem;
   font-weight: normal;
   color: #fff;
-  margin-left: 15rem;
+  margin-left: 14rem;
 }
 #footer nav {
   margin-right: 13.5rem;
@@ -489,12 +489,12 @@
     width: 4rem;
     position: absolute;
     top: 50%;
-    left: 85%;
+    right: 0%;
     transform: translate(0%, -50%);
   }
   .hamburger span {
     position: absolute;
-    left: 3px;
+    left: 12px;
     display: block;
     width: 2.5rem;
     height: 0.3rem;
@@ -504,10 +504,10 @@
     top: 1rem;
   }
   .hamburger span:nth-of-type(2) {
-    top: 2rem;
+    top: 1.9rem;
   }
   .hamburger span:nth-of-type(3) {
-    top: 3rem;
+    top: 2.8rem;
   }
 
   #mission {
@@ -661,7 +661,7 @@
   }
 
   #footer{
-    height: 16rem;
+    height: 18.5rem;
     display: block;
     justify-content: flex-start;
     align-items: flex-start;
@@ -669,7 +669,7 @@
   #footer h6{
     margin: 0;
     text-align: center;
-    padding:1.1rem 0
+    padding:1.3rem 0;
   }
   #footer ul{
     display: block;
@@ -682,7 +682,7 @@
     margin: 0;
   }
   #footer li{
-    padding-bottom: 1.1rem;
+    padding-bottom: 1.3rem;
   }
   #footer a{
     border-left: none;

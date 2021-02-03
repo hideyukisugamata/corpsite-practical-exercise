@@ -54,7 +54,7 @@
 }
 
 #main{
-  height: 40rem;
+  height: 38rem;
   width: 100%;
 }
 .main-form{
@@ -142,13 +142,13 @@ input[type="submit"]{
 }
 .hamburger{
   position: absolute;
-  left: 80%;
+  right: 0%;
   height: 4rem;
   width: 4rem;
 }
 .hamburger span{
   position: absolute;
-  left: 8px;
+  left: 12px;
   height: 0.25rem;
   width: 2.3rem;
   display: block;
@@ -175,7 +175,7 @@ input[type="submit"]{
 }
 
 #footer{
-  height: 16rem;
+  height: 17rem;
   display: block;
   justify-content: flex-start;
   align-items: normal;
@@ -183,8 +183,8 @@ input[type="submit"]{
 #footer h6{
   text-align: center;
   margin: 0;
-  padding-top: 1.1rem;
-  padding-bottom: 1.1rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
 }
 .footer-menu{
   width: 80%;
@@ -199,6 +199,6 @@ input[type="submit"]{
 }
 #footer li{
   text-align: center;
-  padding-bottom: 1.1rem;
+  padding-bottom: 1.2rem;
 }
 }
