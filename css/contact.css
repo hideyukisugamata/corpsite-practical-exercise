@@ -171,24 +171,21 @@ input[type="submit"]{
   width: 90%;
 }
 input[type="submit"]{
-  width: 80%;
+  width: 40%;
 }
 
 #footer{
-  height: 17rem;
-  display: block;
-  justify-content: flex-start;
-  align-items: normal;
+  height: 16rem;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
 #footer h6{
-  text-align: center;
   margin: 0;
-  padding-top: 1.2rem;
-  padding-bottom: 1.2rem;
 }
 .footer-menu{
-  width: 80%;
-  margin: 0 auto;
+  width: fit-content;
+  margin: 0;
 }
 .footer-menu ul{
   justify-content: flex-start;
@@ -199,6 +196,6 @@ input[type="submit"]{
 }
 #footer li{
   text-align: center;
-  padding-bottom: 1.2rem;
+  padding-bottom: 1.1rem;
 }
 }

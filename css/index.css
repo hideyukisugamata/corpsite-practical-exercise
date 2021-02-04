@@ -512,7 +512,6 @@
 
   #mission {
     height: 45.5rem;
-    background-position: ;
   }
   #mission h1 {
     font-size: 3.5rem;
@@ -526,22 +525,22 @@
     line-height: 2rem;
   }
   #heart {
-    height: 34rem;
+    height: 25rem;
   }
   .heart-text {
     top: 13rem;
-    width: 100%;
+    width: 90%;
     box-sizing: border-box;
-    padding-left: 0.75rem;
+    padding-left: 1.4rem;
     padding-right: 0.8rem;
   }
   #heart h3 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.8rem;
   }
 
   #service {
-    height: 100rem;
+    height: 140rem;
     margin-bottom: 5rem;
   }
   #service h1{
@@ -550,7 +549,7 @@
 
   }
   .service-main {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
   }
@@ -566,7 +565,7 @@
   .service2-image,
   .service3-image,
   .service4-image {
-    height: 59%;
+    height: 80%;
   }
   .service1-text,.service2-text.service3-text.service4-text{
     height: 25%;
@@ -578,21 +577,21 @@
   }
   #service h3{
     line-height: 1.7rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .service4-text h2{
     line-height: 2rem;
   }
   #service button{
-    width: 90%;
-    margin-top: 12rem;
+    width: 40%;
+    margin-top: 15rem;
     font-size: 1.1rem;
   }
   #news{
     height: 26rem;
   }
   .news-text{
-    width: 95%;
+    width: 87%;
     height: 12rem;
   }
   .news-title{
@@ -614,7 +613,7 @@
   }
 
   #blog{
-    height: 70rem;
+    height: 120rem;
     width: 100%;
     box-sizing: border-box;
   }
@@ -623,8 +622,8 @@
     margin-top: 6rem;
   }
   .blog-main{
-    height: 75%;
-    width: 95%;
+    height: 85%;
+    width: 90%;
     flex-wrap: wrap;
   }
   .blog-first,.blog-second,.blog-third{
@@ -632,7 +631,7 @@
     height: 33.3%;
   }
   .blog-first-image,.blog-second-image,.blog-third-image{
-    height: 75%;
+    height: 85%;
   }
   .blog-first-text,.blog-second-text,.blog-third-text{
     height: 25%;
@@ -644,7 +643,7 @@
     font-size: 1rem;
   }
   #blog button{
-    width: 90%;
+    width: 40%;
     font-size: 1.1rem;
     margin-top: 4rem;
   }
@@ -653,7 +652,7 @@
     height: 25rem;
   }
   #FAQ button{
-    width: 90%;
+    width: 40%;
     font-size: 1.1rem;
   }
   #FAQ h3{
@@ -661,28 +660,26 @@
   }
 
   #footer{
-    height: 18.5rem;
-    display: block;
-    justify-content: flex-start;
-    align-items: flex-start;
+    height: 16rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
   #footer h6{
     margin: 0;
     text-align: center;
-    padding:1.3rem 0;
   }
   #footer ul{
     display: block;
     text-align: center;
     width: 100%;
     justify-content: flex-start;
-    margin: 0 auto;
   }
   #footer nav{
     margin: 0;
   }
   #footer li{
-    padding-bottom: 1.3rem;
+    padding-bottom: 1.1rem;
   }
   #footer a{
     border-left: none;

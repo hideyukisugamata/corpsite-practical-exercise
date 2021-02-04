@@ -205,7 +205,7 @@
   height: 25rem;
 }
 #FAQ button{
-  width: 80%;
+  width: 40%;
   font-size: 1rem;
 }
 #FAQ h3{
@@ -214,14 +214,14 @@
 }
 
 #footer{
-  height: 17rem;
-  display: block;
-  justify-content: flex-start;
-  align-items: flex-start;
+  height: 16rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .footer-menu{
   margin-right: 0;
-  width: 100%;
+  width: fit-content;
   text-align: center;
 }
 .footer-menu ul{
@@ -229,7 +229,7 @@
   justify-content: flex-start;
 }
 #footer li{
-  padding-bottom: 1.2rem;
+  padding-bottom: 1.1rem;
 }
 #footer a{
   border: none;
@@ -237,6 +237,6 @@
 #footer h6{
   margin: 0;
   text-align: center;
-  padding: 1.2rem 0;
+  padding: 1.1rem 0;
 }
 }
